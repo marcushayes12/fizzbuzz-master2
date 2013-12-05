@@ -12,7 +12,8 @@ class Calculator
         return 5   
      elsif num == 6
         return 6     
-
+     elsif num == 7
+        return 7 
      end
   end
 
