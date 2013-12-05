@@ -9,7 +9,10 @@ class Calculator
     elsif num == 4
         return 4
     elsif num == 5
-        return 4    
+        return 5   
+     elsif num == 6
+        return 6     
+
      end
   end
 
