@@ -1,5 +1,11 @@
-class calculator
-   def calculate
-    1
-    end
- end   
+class Calculator
+   def calculate (num)
+    if num ==1
+       return 1
+    elsif num == 2
+        return 2
+    elsif num == 3
+        return "fizzbuzz"
+     end
+  end
+end        
