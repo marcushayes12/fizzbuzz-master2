@@ -21,12 +21,12 @@ describe 'fizzbuzz calculator' do
     end
 
 	it 'returns fizz from 3' do 
-	   @calculator.calculate(3).should == 3
+	   @calculator.calculate(3).should == "fizz"
     end
 
-	#it 'returns 4 from 4' do
-	 #  @calculator.calculate(4).should == 4
-	#end
+	it 'returns 4 from 4' do
+	   @calculator.calculate(4).should == 4
+	end
 	   
 	#it 'returns buzz from 5' do
 	 #  @calculator.calculate(5).should == 5
