@@ -5,7 +5,7 @@ class Calculator
     elsif num == 2
         return 2
     elsif num == 3
-        return "fizzbuzz"
+        return "fizz"
      end
   end
 end        
