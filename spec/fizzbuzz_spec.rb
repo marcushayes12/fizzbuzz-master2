@@ -20,9 +20,9 @@ describe 'fizzbuzz calculator' do
 	   @calculator.calculate(2).should == 2
     end
 
-	#it 'returns fizz from 3' do 
-	 #  @calculator.calculate(3).should == 3
-    #end
+	it 'returns fizz from 3' do 
+	   @calculator.calculate(3).should == 3
+    end
 
 	#it 'returns 4 from 4' do
 	 #  @calculator.calculate(4).should == 4

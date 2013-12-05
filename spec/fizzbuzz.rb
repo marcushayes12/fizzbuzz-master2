@@ -8,4 +8,5 @@ class Calculator
         return "fizz"
      end
   end
+
 end        
