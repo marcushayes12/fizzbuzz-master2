@@ -8,6 +8,8 @@ class Calculator
         return "fizz"
     elsif num == 4
         return 4
+    elsif num == 5
+        return 4    
      end
   end
 

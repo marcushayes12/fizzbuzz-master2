@@ -28,9 +28,9 @@ describe 'fizzbuzz calculator' do
 	   @calculator.calculate(4).should == 4
 	end
 	   
-	#it 'returns buzz from 5' do
-	 #  @calculator.calculate(5).should == 5
-	#end
+	it 'returns buzz from 5' do
+	   @calculator.calculate(5).should == 5
+	end
 
 	#it 'returns fizz from 6' do
 	 #  @calculator.calculate(6).should == 6
